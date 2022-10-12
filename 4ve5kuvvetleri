@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        int girilenSayi;
+        Scanner girdi =new Scanner(System.in);
+        System.out.println("lütfen sayı giriniz.");
+        girilenSayi=girdi.nextInt();
+
+        for (int i=1; i<girilenSayi; i*=4){
+
+            System.out.println("dördün kuvvetleri "+i);
+
+
+
+        }for (int i=1; i<girilenSayi; i*=5 ){
+
+            System.out.println("beşin kuvvetleri "+i);
+        }
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
